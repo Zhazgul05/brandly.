@@ -1,0 +1,31 @@
+@import "vars";
+
+.footer {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  height: 157px;
+  color: $dark;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__text {
+    color: $light;
+    padding-top: 75px;
+  }
+}
+
+.btn2 {
+  display: inline-block;
+  width: 94px;
+  height: 22.37px;
+  left: 760px;
+  top: 2062.56px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $dark;
+}

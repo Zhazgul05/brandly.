@@ -1,0 +1,36 @@
+@import "vars";
+
+.categories {
+  margin-bottom: 60px;
+  max-width: 1140px;
+  min-height: 579px;
+  left: 159px;
+  top: 695px;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 350px;
+    min-height: 419px;
+    display: flex;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: $mai-font;
+    font-style: $secondary-font;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: $light;
+  }
+}

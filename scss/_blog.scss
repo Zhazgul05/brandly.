@@ -1,0 +1,50 @@
+@import "vars";
+
+.blog {
+  max-width: 1110;
+  max-height: 764;
+
+  &__title {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+
+    &__item {
+      max-width: 594;
+      max-height: 540;
+
+      &-link {
+        border: 2px solid black;
+
+        color: $dark;
+      }
+    }
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__item-title {
+    color: $accent;
+    margin-bottom: 15px;
+  }
+
+  &__item-details {
+    color: $dark;
+    margin-bottom: 29px;
+  }
+
+  &__item-leed {
+    color: $dark;
+    margin-bottom: 20px;
+  }
+}
